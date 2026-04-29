@@ -1,0 +1,25 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment
+.env
+.env.*
+
+# Dependencies (if ever added)
+node_modules/
+
+# Build outputs (if ever added)
+dist/
+build/
+.netlify/
+
+# Logs
+*.log
