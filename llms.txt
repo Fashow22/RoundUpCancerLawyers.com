@@ -1,22 +1,22 @@
-# rounduplawyer.com
+# roundupcancerlawyers.com
 
 > rounduplawyer.com is a legal resource by The Alvarez Law Firm, based in Coral Gables, Florida. The site provides information about Roundup cancer lawsuits — Non-Hodgkin Lymphoma, B-cell Lymphoma, Leukemia, Multiple Myeloma, and other glyphosate-linked blood cancers — with a focus on strict product liability claims against Monsanto and Bayer. Led by Alex Alvarez, Board Certified Civil Trial Lawyer, and Herb Borroto, M.D., J.D., Medical-Legal Expert. The firm has recovered over $100 million from Big Tobacco using the same defective-product framework it applies to Roundup cases.
 
 ## Main Pages
 
-- [rounduplawyer.com — Home](https://www.rounduplawyer.com): Roundup cancer lawsuits, our strict-liability edge, and how The Alvarez Law Firm holds Monsanto and Bayer accountable.
+- [rounduplawyer.com — Home](https://www.roundupcancerlawyers.com): Roundup cancer lawsuits, our strict-liability edge, and how The Alvarez Law Firm holds Monsanto and Bayer accountable.
 
 ## Practice Areas & Case Information
 
-- [Non-Hodgkin Lymphoma Roundup Lawsuit](https://www.rounduplawyer.com/non-hodgkin-lymphoma-lawsuit.html): The cancer most strongly tied to Roundup. Coverage of all NHL subtypes — DLBCL, Follicular, Marginal Zone, Mantle Cell, Burkitt, T-cell lymphomas, and more.
-- [B-cell Lymphoma Roundup Lawsuit](https://www.rounduplawyer.com/b-cell-lymphoma-lawsuit.html): DLBCL, Follicular Lymphoma, Marginal Zone Lymphoma, Mantle Cell Lymphoma, Burkitt Lymphoma, Lymphoplasmacytic Lymphoma / Waldenstrom, SLL, and Hairy Cell Leukemia.
-- [Leukemia & CLL Roundup Lawsuit](https://www.rounduplawyer.com/leukemia-lawsuit.html): Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, and Hairy Cell Leukemia after glyphosate exposure.
-- [Multiple Myeloma Roundup Lawsuit](https://www.rounduplawyer.com/multiple-myeloma-lawsuit.html): Plasma cell cancers in farmers, applicators, and other heavy-exposure workers.
+- [Non-Hodgkin Lymphoma Roundup Lawsuit](https://www.roundupcancerlawyers.com/non-hodgkin-lymphoma-lawsuit.html): The cancer most strongly tied to Roundup. Coverage of all NHL subtypes — DLBCL, Follicular, Marginal Zone, Mantle Cell, Burkitt, T-cell lymphomas, and more.
+- [B-cell Lymphoma Roundup Lawsuit](https://www.roundupcancerlawyers.com/b-cell-lymphoma-lawsuit.html): DLBCL, Follicular Lymphoma, Marginal Zone Lymphoma, Mantle Cell Lymphoma, Burkitt Lymphoma, Lymphoplasmacytic Lymphoma / Waldenstrom, SLL, and Hairy Cell Leukemia.
+- [Leukemia & CLL Roundup Lawsuit](https://www.roundupcancerlawyers.com/leukemia-lawsuit.html): Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, and Hairy Cell Leukemia after glyphosate exposure.
+- [Multiple Myeloma Roundup Lawsuit](https://www.roundupcancerlawyers.com/multiple-myeloma-lawsuit.html): Plasma cell cancers in farmers, applicators, and other heavy-exposure workers.
 
 ## Legal
 
-- [Disclaimer](https://www.rounduplawyer.com/disclaimer.html): Important legal information about attorney-client relationships, results, and bar compliance.
-- [Privacy Policy](https://www.rounduplawyer.com/privacy-policy.html): How we collect, use, and protect your personal information.
+- [Disclaimer](https://www.roundupcancerlawyers.com/disclaimer.html): Important legal information about attorney-client relationships, results, and bar compliance.
+- [Privacy Policy](https://www.roundupcancerlawyers.com/privacy-policy.html): How we collect, use, and protect your personal information.
 
 ## Key Facts
 
@@ -45,3 +45,11 @@
 - The "Monsanto Papers" — Internal Monsanto documents released through Roundup litigation
 - Federal Roundup MDL 2741 (Northern District of California)
 - Agricultural Health Study and other peer-reviewed cohort and case-control studies
+
+## Sources Cited On Site
+
+Each page on this site carries a "Sources" section at the bottom citing primary sources (IARC, EPA, NIH/NCI, U.S. District Court for the Northern District of California, American Cancer Society, peer-reviewed PubMed-indexed studies). The Alvarez Law Firm relies on government, academic, and peer-reviewed publications — not commercial summaries — for all factual claims about glyphosate, Roundup, and the linked blood cancers.
+
+## Last Updated
+
+2026-04-29 (canonical domain confirmed; comprehensive schema, FAQ, cross-link, Sources, and Last-reviewed coverage shipped across all pages).
