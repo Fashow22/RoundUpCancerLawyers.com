@@ -4,13 +4,13 @@ Targeted website for The Alvarez Law Firm's Roundup cancer litigation practice. 
 
 ## Site Identity
 
-- **Canonical domain:** `https://www.roundupcancerlawyers.com/` — used in all canonicals, schema `url` properties, sitemap, robots, llms.txt
+- **Canonical domain:** `https://roundupcancerlawyers.com/` — used in all canonicals, schema `url` properties, sitemap, robots, llms.txt
 - **Alias domains (configure as 301 → canonical):**
   - `monsantorounduplawyer.com`
   - `monsantotriallawyer.com`
   - `rounduptriallawyer.com`
 
-  These are redirect-only. Do **not** add to sitemap, llms.txt, schema `sameAs`, or canonicals. In Netlify, set each to redirect (301) to `https://www.roundupcancerlawyers.com/`. Auto-provision SSL on each so the redirect doesn't trigger a browser warning.
+  These are redirect-only. Do **not** add to sitemap, llms.txt, schema `sameAs`, or canonicals. In Netlify, set each to redirect (301) to `https://roundupcancerlawyers.com/`. Auto-provision SSL on each so the redirect doesn't trigger a browser warning.
 - **Site code (for intake email subject line):** `ROUNDUPLAWYER`
 - **Primary defendants:** Monsanto Company; Bayer AG; Bayer CropScience
 - **Active product:** Roundup (glyphosate-based herbicide)
@@ -88,8 +88,8 @@ The cross-link cards on the homepage use Unsplash CDN URLs as placeholders — f
 
 - [x] Replace all `{{MICROSOFT_FORMS_URL}}` placeholders (5 pages) — done
 - [ ] Add team and stock photos to the `Photos/` subfolders
-- [x] Domain confirmed and applied — canonical is `https://www.roundupcancerlawyers.com/`; aliases (monsantorounduplawyer.com, monsantotriallawyer.com, rounduptriallawyer.com) configured as 301 → canonical at the host layer
-- [ ] Verify each alias 301s to `https://www.roundupcancerlawyers.com/` (single-hop, not chained) and serves valid SSL before the redirect
+- [x] Domain confirmed and applied — canonical is `https://roundupcancerlawyers.com/`; aliases (monsantorounduplawyer.com, monsantotriallawyer.com, rounduptriallawyer.com) configured as 301 → canonical at the host layer
+- [ ] Verify each alias 301s to `https://roundupcancerlawyers.com/` (single-hop, not chained) and serves valid SSL before the redirect
 - [ ] **Tailwind compile & swap before first production deploy:**
   1. Local one-time: `npm install --no-audit --no-fund && npm run build:css` — produces `assets/css/tailwind.min.css`.
   2. Find/replace across all 7 HTML files: replace `<script src="https://cdn.tailwindcss.com"></script>` and the inline `<script>tailwind.config = {...}</script>` block with `<link rel="stylesheet" href="/assets/css/tailwind.min.css">`. Custom theme moves into `tailwind.config.js` (already done).
