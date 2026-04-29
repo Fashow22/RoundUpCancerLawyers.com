@@ -4,7 +4,13 @@ Targeted website for The Alvarez Law Firm's Roundup cancer litigation practice. 
 
 ## Site Identity
 
-- **Working domain (placeholder):** `rounduplawyer.com`
+- **Canonical domain:** `https://www.roundupcancerlawyers.com/` — used in all canonicals, schema `url` properties, sitemap, robots, llms.txt
+- **Alias domains (configure as 301 → canonical):**
+  - `monsantorounduplawyer.com`
+  - `monsantotriallawyer.com`
+  - `rounduptriallawyer.com`
+
+  These are redirect-only. Do **not** add to sitemap, llms.txt, schema `sameAs`, or canonicals. In Netlify, set each to redirect (301) to `https://www.roundupcancerlawyers.com/`. Auto-provision SSL on each so the redirect doesn't trigger a browser warning.
 - **Site code (for intake email subject line):** `ROUNDUPLAWYER`
 - **Primary defendants:** Monsanto Company; Bayer AG; Bayer CropScience
 - **Active product:** Roundup (glyphosate-based herbicide)
@@ -27,6 +33,10 @@ Targeted website for The Alvarez Law Firm's Roundup cancer litigation practice. 
 | `assets/css/styles.css` | Copied from `_TALF-Website-Template`. Shared across all sites. |
 | `assets/js/main.js` | Copied from `_TALF-Website-Template`. Shared across all sites. |
 | `talf-final-logo-2022-01.png` | TALF logo. |
+| `package.json` | npm manifest — Tailwind CLI as devDependency, `build:css` script. |
+| `tailwind.config.js` | Tailwind v3 config — custom navy/gold/teal palette + Cormorant/DM Sans/Libre Caslon fonts. |
+| `src/input.css` | Tailwind source (base + components + utilities). |
+| `netlify.toml` | Netlify build config — runs `npm install && npm run build:css` on every deploy; long-cache headers on `/assets/*`. |
 
 ## What Makes This Site Different (And Why)
 
@@ -78,12 +88,13 @@ The cross-link cards on the homepage use Unsplash CDN URLs as placeholders — f
 
 - [x] Replace all `{{MICROSOFT_FORMS_URL}}` placeholders (5 pages) — done
 - [ ] Add team and stock photos to the `Photos/` subfolders
-- [ ] Confirm domain — the site canonicals all use `https://www.rounduplawyer.com/`. If a different domain is purchased, find/replace across:
-  - All `<link rel="canonical">` tags
-  - `sitemap.xml`
-  - `robots.txt`
-  - `llms.txt`
-  - All Schema.org `url` properties in `index.html`
+- [x] Domain confirmed and applied — canonical is `https://www.roundupcancerlawyers.com/`; aliases (monsantorounduplawyer.com, monsantotriallawyer.com, rounduptriallawyer.com) configured as 301 → canonical at the host layer
+- [ ] Verify each alias 301s to `https://www.roundupcancerlawyers.com/` (single-hop, not chained) and serves valid SSL before the redirect
+- [ ] **Tailwind compile & swap before first production deploy:**
+  1. Local one-time: `npm install --no-audit --no-fund && npm run build:css` — produces `assets/css/tailwind.min.css`.
+  2. Find/replace across all 7 HTML files: replace `<script src="https://cdn.tailwindcss.com"></script>` and the inline `<script>tailwind.config = {...}</script>` block with `<link rel="stylesheet" href="/assets/css/tailwind.min.css">`. Custom theme moves into `tailwind.config.js` (already done).
+  3. Netlify will then auto-rebuild the CSS on every deploy via `netlify.toml`.
+- [ ] Validate one disease page through [Google Rich Results Test](https://search.google.com/test/rich-results) — expect FAQPage + Article/WebPage rich-results eligible, BreadcrumbList rendered, Organization & Person entities resolved.
 - [ ] Microsoft Form created, styled `#0A2540`, embedded
 - [ ] Power Automate flow set up — uses "Send an email (V2)", NOT V3
 - [ ] Test form submission end-to-end (submit → flow → email received at intake@integrityforjustice.com)
