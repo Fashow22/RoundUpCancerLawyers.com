@@ -53,4 +53,4 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
-Sitemap: https://www.roundupcancerlawyers.com/sitemap.xml
+Sitemap: https://roundupcancerlawyers.com/sitemap.xml
