@@ -13,6 +13,15 @@
 - [Leukemia & CLL Roundup Lawsuit](https://roundupcancerlawyers.com/leukemia-lawsuit.html): Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma, and Hairy Cell Leukemia after glyphosate exposure.
 - [Multiple Myeloma Roundup Lawsuit](https://roundupcancerlawyers.com/multiple-myeloma-lawsuit.html): Plasma cell cancers in farmers, applicators, and other heavy-exposure workers.
 
+## Blog — In-Depth Analysis
+
+- [Roundup Cancer Lawsuit Insights — Blog Index](https://roundupcancerlawyers.com/blog/): All published analysis on Roundup litigation, glyphosate science, and case eligibility.
+- [The Monsanto Papers Explained](https://roundupcancerlawyers.com/blog/monsanto-papers-explained.html): What internal Monsanto documents reveal about ghost-writing of "independent" science, attacks on the IARC classification, and EPA influence campaigns. Authored by Alex Alvarez.
+- [Can I Still Sue Monsanto for Roundup in 2026?](https://roundupcancerlawyers.com/blog/can-i-still-sue-monsanto-roundup-2026.html): Yes. What Bayer's $10.9B settlement did and didn't resolve, why the federal MDL is still active, and how state-by-state statutes of limitations affect filing windows. Authored by Alex Alvarez.
+- [IARC vs. EPA on Glyphosate: Why The Two Agencies Disagree](https://roundupcancerlawyers.com/blog/iarc-vs-epa-glyphosate.html): The WHO's IARC classifies glyphosate as Group 2A "probably carcinogenic." The EPA does not. Why the two agencies reached opposite conclusions and which is more persuasive in court. Authored by Herb Borroto, M.D., J.D.
+- [Strict Liability vs. Failure-to-Warn: Why It Matters For Your Roundup Case](https://roundupcancerlawyers.com/blog/strict-liability-vs-failure-to-warn.html): Two roads to a defective-product verdict against Monsanto. Why strict product liability is harder for Monsanto to escape, and the tobacco-litigation precedent for using it. Authored by Alex Alvarez.
+- [Who Qualifies for a Roundup Lawsuit: Farmers, Landscapers, Homeowners](https://roundupcancerlawyers.com/blog/who-qualifies-roundup-lawsuit.html): Three exposure categories (agricultural workers, landscapers and groundskeepers, residential users) and four qualifying cancer families. What we need to evaluate a case. Authored by Alex Alvarez, medical review by Herb Borroto, M.D., J.D.
+
 ## Legal
 
 - [Disclaimer](https://roundupcancerlawyers.com/disclaimer.html): Important legal information about attorney-client relationships, results, and bar compliance.
@@ -52,4 +61,4 @@ Each page on this site carries a "Sources" section at the bottom citing primary 
 
 ## Last Updated
 
-2026-04-29 (canonical domain confirmed; comprehensive schema, FAQ, cross-link, Sources, and Last-reviewed coverage shipped across all pages).
+2026-04-29 (blog launch — five in-depth posts shipped covering Monsanto Papers, statute of limitations in 2026, IARC vs. EPA on glyphosate, strict liability vs. failure-to-warn, and case eligibility. Apex canonicals and compiled Tailwind CSS confirmed live.).
