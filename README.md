@@ -43,7 +43,7 @@ The Tobacco Website was the natural model — same trial team, same firm, same d
 - **Alex Alvarez's title:** Always `Board Certified Civil Trial Lawyer` (NBTA — National Board of Trial Advocacy).
 - **The $100M+ figure:** Tied specifically to the firm's tobacco recoveries. It is the credibility anchor for the strict-liability claim — keep it accurate and connected to that context.
 - **No specific Roundup verdict claims:** The site references Bayer's $10.9B settlement fund and the MDL, but does not claim specific Roundup verdicts for the firm. Do not add unverified verdict claims.
-- **Form embed URL is a placeholder:** `{{MICROSOFT_FORMS_URL}}` appears in the contact form on every page. Replace with the production Microsoft Forms embed URL once the form is created (see Intake Form Setup below).
+- **Form embed URL is wired in.** The production Microsoft Forms embed URL is live on all 5 pages. Setup instructions below are kept for reference / future template re-use.
 
 ## Intake Form Setup
 
@@ -76,7 +76,7 @@ The cross-link cards on the homepage use Unsplash CDN URLs as placeholders — f
 
 ## Deployment Checklist
 
-- [ ] Replace all `{{MICROSOFT_FORMS_URL}}` placeholders (5 pages)
+- [x] Replace all `{{MICROSOFT_FORMS_URL}}` placeholders (5 pages) — done
 - [ ] Add team and stock photos to the `Photos/` subfolders
 - [ ] Confirm domain — the site canonicals all use `https://www.rounduplawyer.com/`. If a different domain is purchased, find/replace across:
   - All `<link rel="canonical">` tags
